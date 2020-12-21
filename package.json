@@ -1,0 +1,27 @@
+{
+  "name": "discord-testbot",
+  "version": "1.0.0",
+  "description": "Make a testing discord bot.",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0",
+    "node-fetch": "^2.6.1",
+    "nodemon": "^2.0.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/InwooLeeme/Discord-testBot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/InwooLeeme/Discord-testBot/issues"
+  },
+  "homepage": "https://github.com/InwooLeeme/Discord-testBot#readme"
+}
