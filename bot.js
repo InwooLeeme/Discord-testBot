@@ -35,13 +35,14 @@ async function handleData(message) {
         case `${prefix}따귀`:
         case `${prefix}따구`:
         case `${prefix}싸다구`:
-        case `${prefix}싸따귀`:
+        case `${prefix}싸다귀`:
         case `${prefix}찰싹`:
         case `${prefix}찰지구나`:
         case `${prefix}spank`:
             sendGif(message);
             break;
         default:
+            break;
 
     }
 }
