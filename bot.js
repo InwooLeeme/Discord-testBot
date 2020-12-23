@@ -4,7 +4,7 @@ require('dotenv').config();
 const fetch = require('node-fetch');
 
 const want = "slap";
-const limit = 50;
+const limit = 10;
 let ranNumber;
 const deleteTime = 10000;
 const prefix = '!';
